@@ -28,7 +28,7 @@ and can load-balance across them.
 
 Kubernetes {{< glossary_tooltip term_id="pod" text="Pods" >}} are mortal.
 They are born and when they die, they are not resurrected.
-If you use a {{< glossary_tooltip term_id="deployment" >}} to run your app,
+If you use a {{< glossary_tooltip term_id="deployment" >}} or a {{ glossary_tooltip term_id="replica_set" }} to run your app,
 it can create and destroy Pods dynamically.
 
 Each Pod gets its own IP address, however in a Deployment, the set of Pods
